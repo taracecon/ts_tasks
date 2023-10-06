@@ -1,11 +1,9 @@
 import {RocketBase} from "./RocketBase";
 
-export class MilitaryRocket extends RocketBase 
-{
+export class MilitaryRocket extends RocketBase {
     name: string = "TOP SECRET"
 
-    launch(): void
-    {
+    launch(): void {
         console.log("TOP SECRET") 
     }
 }

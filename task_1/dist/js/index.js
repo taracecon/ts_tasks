@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var StarPort_1 = require("./StarPort");
-var sp = new StarPort_1.StarPort();
-var ar = sp.getAllRockets();
+const StarPort_1 = require("./StarPort");
+let sp = new StarPort_1.StarPort();
+let ar = sp.getAllRockets();
 for (var i = 0; i < ar.length; i++) {
-    console.log("Prepare to the next launch", i);
+    console.log(`Prepare to the next launch number ${i + 1}:`);
     ar[i].launch();
 }
