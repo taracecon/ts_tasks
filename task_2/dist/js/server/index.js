@@ -10,7 +10,7 @@ const app = express();
 // Use process.env.PORT if available, otherwise, use port 2004
 const port = process.env.PORT || 2004;
 // IP address template
-const ip = '192.168.0.113';
+const ip = 'yourIPAddress';
 // dictionary for storing rockets and for their O(1) search
 let rocketsDict = {};
 // create and add rockets to new dictionary
